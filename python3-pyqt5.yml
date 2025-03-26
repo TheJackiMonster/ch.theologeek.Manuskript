@@ -61,11 +61,12 @@ modules:
           name: packaging
           packagetype: bdist_wheel
       - type: file
-        url: https://files.pythonhosted.org/packages/62/9a/78122735697dbfc6c1db363627309eb0da7e44d8c05ba017b08666530586/sip-6.10.0.tar.gz
-        sha256: fa0515697d4c98dbe04d9e898d816de1427e5b9ae5d0e152169109fd21f5d29c
+        url: https://files.pythonhosted.org/packages/04/85/317e2d2a3e926e928c85ea935bc5991ae09181ebdc724b4144546656fbce/sip-6.10.0-1-py3-none-any.whl
+        sha256: 3bd6e5ab6e5bc8e5531bbf4ff299781bc2ee5c39da876072e0465efdad215896
         x-checker-data:
           type: pypi
           name: sip
+          packagetype: bdist_wheel
       - type: file
         url: https://files.pythonhosted.org/packages/a7/c8/027cb80c99de9bb64aafcf3f5d67c128523e0af08edf18987ea8eb5c4be9/PyQt_builder-1.18.1-py3-none-any.whl
         sha256: 59ba2b1df2692986f3b3d3ba7395a6476c54cab0cc0ece18030ffba574657afc
