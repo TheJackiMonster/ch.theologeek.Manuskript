@@ -59,8 +59,8 @@ modules:
       - cp -R . /app/
     sources:
       - type: archive
-        url: https://github.com/jgm/pandoc/releases/download/3.1.12.2/pandoc-3.1.12.2-linux-amd64.tar.gz
-        sha256: 40da725277f7617d045fc761b0375b3ba0990c5d03a908c207fed61b78e34986
+        url: https://github.com/jgm/pandoc/releases/download/3.6.4/pandoc-3.6.4-linux-amd64.tar.gz
+        sha256: 5def6e1ff535e397becce292ee97767a947306150b9fb1488003b67ac3417c5e
         only-arches:
           - x86_64
         x-checker-data:
@@ -70,8 +70,8 @@ modules:
           url-query: .assets[] | select(.name=="pandoc-" + $version + "-linux-amd64.tar.gz")
             | .browser_download_url
       - type: archive
-        url: https://github.com/jgm/pandoc/releases/download/3.1.12.2/pandoc-3.1.12.2-linux-arm64.tar.gz
-        sha256: 9032b273aec5a1050b2e5f724c8a9dcaf657540c68e44dc477ec9fc38aebc173
+        url: https://github.com/jgm/pandoc/releases/download/3.6.4/pandoc-3.6.4-linux-arm64.tar.gz
+        sha256: ad5cf63fe0420388d9ec513f02d03e061477b786d11a328164dce8ad7387b8bd
         only-arches:
           - aarch64
         x-checker-data:
