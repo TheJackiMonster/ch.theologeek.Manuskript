@@ -44,8 +44,8 @@ modules:
     buildsystem: autotools
     sources:
       - type: archive
-        url: https://github.com/rrthomas/enchant/releases/download/v2.8.2/enchant-2.8.2.tar.gz
-        sha256: 8f19535adb5577b83b00e02f330fe9b9eb40dd21f19e2899636fc4d3a7696375
+        url: https://github.com/rrthomas/enchant/releases/download/v2.8.4/enchant-2.8.4.tar.gz
+        sha256: e28f98208df5f99320d6a05cd49f83420bf71e69052debe3b343c9bb15c833ed
         x-checker-data:
           type: json
           url: https://api.github.com/repos/rrthomas/enchant/releases/latest
@@ -59,8 +59,8 @@ modules:
       - cp -R . /app/
     sources:
       - type: archive
-        url: https://github.com/jgm/pandoc/releases/download/3.6.4/pandoc-3.6.4-linux-amd64.tar.gz
-        sha256: 5def6e1ff535e397becce292ee97767a947306150b9fb1488003b67ac3417c5e
+        url: https://github.com/jgm/pandoc/releases/download/3.7.0.1/pandoc-3.7.0.1-linux-amd64.tar.gz
+        sha256: 73824100c139dfa5917a45974513d6dbdaf03658424000ddef8c4b0cde7cce88
         only-arches:
           - x86_64
         x-checker-data:
@@ -70,8 +70,8 @@ modules:
           url-query: .assets[] | select(.name=="pandoc-" + $version + "-linux-amd64.tar.gz")
             | .browser_download_url
       - type: archive
-        url: https://github.com/jgm/pandoc/releases/download/3.6.4/pandoc-3.6.4-linux-arm64.tar.gz
-        sha256: ad5cf63fe0420388d9ec513f02d03e061477b786d11a328164dce8ad7387b8bd
+        url: https://github.com/jgm/pandoc/releases/download/3.7.0.1/pandoc-3.7.0.1-linux-arm64.tar.gz
+        sha256: d045b81998f932df9c8876a07db01ccacf42e2117384029c46d5b83b46ef71e5
         only-arches:
           - aarch64
         x-checker-data:
